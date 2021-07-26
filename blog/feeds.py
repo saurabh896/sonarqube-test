@@ -6,6 +6,7 @@ from .models import Entry
 class WeblogEntryFeed(Feed):
     title = "The Django weblog"
     link = "https://www.djangoproject.com/weblog/"
+    linked_list = "This is test line"
     description = "Latest news about Django, the Python Web framework."
 
     def items(self):
